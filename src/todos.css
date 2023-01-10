@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@1,200&family=Shadows+Into+Light&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+.wrapper{
+    box-sizing: border-box;
+    border: 1px solid black;
+    background-color: rgb(34, 33, 33);
+    color: white;
+    width: 50%;
+    margin: auto;
+    margin-top: 30px;
+    border-radius: 5px;
+    box-shadow: 4px 4px 4px 4px rgb(22, 22, 22);
+}
+.todo__name{
+    text-align: center;
+    margin-top: 30px;
+    font-family: 'Exo 2', sans-serif;
+}
+.todo__container{
+    margin-bottom: 30px;
+    
+}
+.todo__input{
+    padding: 6px;
+    width: 23%;
+    margin-top: 20px;
+    border: 2px solid #580baf;
+    outline: none;
+    margin-top: 50px;
+}
+ .todo__btn{
+    padding: 5.2px;
+    border: 2px solid  #580baf;
+    outline: none;
+    background: linear-gradient(90deg, rgba(134,5,193,1) 17%, rgba(130,4,167,1) 29%, rgba(88,11,175,1) 100%);
+    color: #fff;
+    font-family:'Exo 2', sans-serif;
+    position: relative;
+    right:5px ;
+}
+.todo__todos{
+    box-sizing: border-box;
+    width: 50%;
+    background-color: #22c1c3;
+    color: #fff;
+    border-radius: 5px;
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+   
+}
+.todo__dataList{
+    
+    width: 80%;
+    font-family: 'Exo 2', sans-serif;
+    font-weight: 900;
+    font-size: 20px;
+    
+}
+.todo__remove{
+    font-size: 25px;
+}
+.todo__remove:hover{
+    color: red;
+}
